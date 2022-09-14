@@ -1,0 +1,25 @@
+
+BASIC JAVASCRIPT INSTRUCTIONS
+
+
+                This example combines several techniques that you have seen throughout this chapter.
+                You can see the code for this example on the next two pages. Single line
+                comments are used to describe what each section of the code does.
+                To start, three variables are created that store information that is used in
+                the welcome message. These variables are then concatenated (joined
+                together) to create the full message the user sees.
+                The next part of the example demonstrates how basic math is performed
+                on numbers to calculate the cost of a sign.
+                A variable called sign holds the text the sign will show.
+                A property called length is used to determine how many characters
+                are in the string (you will meet this property on p128).
+                The cost of the sign (the subtotal) is calculated by multiplying the
+                number of tiles by the cost of each one.
+                The grand total is created by adding $7 for shipping.
+                Finally, the information is written into the page by selecting elements and
+                then replacing the content of that element (using a technique you meet
+                fully in Chapter 5). It selects elements from the HTML page using the
+                value of their id attributes and then updates the text inside those elements.
+                Once you have worked your way through this example, you should have a
+                good basic understanding of how data is stored in variables and how to
+                perform basic operations with the data in those variables.

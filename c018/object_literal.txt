@@ -1,0 +1,53 @@
+WHAT IS AN OBJECT?
+    Objects group together a set of variables and
+    functions to create a model of a something you
+    would recognize from the real world. In an object,
+    variables and functions take on new names.
+    IN AN OBJECT: VARIABLES BECOME
+    KNOWN AS PROPERTIES
+    If a variable is part of an object, it is called a property. Properties tell us
+    about the object, such as the name of a hotel or the number of rooms it
+    has. Each individual hotel might have a different name and a different
+    number of rooms.
+    IN AN OBJECT: FUNCTIONS BECOME
+    KNOWN AS METHODS
+    If a function is part of an object, it is called a method. Methods represent
+    tasks that are associated with the object. For example, you can check how
+    many rooms are available by subtracting the number of booked rooms
+    from the total number of rooms.
+    This object represents a hotel. It has five properties
+    and one method. The object is in curly braces. It is
+    stored in a variable called hotel.
+    Like variables and named functions, properties and methods have a name
+    and a value. In an object, that name is called a key.
+    An object cannot have two keys with the same name. This is because keys
+    are used to access their corresponding values.
+    The value of a property can be a string, number, Boolean, array, or even
+    another object. The value of a method is always a function.
+
+
+
+
+CREATING MORE OBJECT LITERALS
+
+    Here you can see another object. Again it is called hotel, but this time
+    the model represents a different hotel. For a moment, imagine that this
+    is a different page of the same travel website.
+    The Park hotel is larger. It has 120 rooms and 77 of them are booked.
+    The only things changing in the code are the values of the hotel
+    object's properties:
+
+    The name of the hotel
+    How many rooms it has
+    How many rooms are booked
+    
+    The rest of the page works in exactly the same way. The name is
+    shown using the same code. The checkAvailability() method has
+    not changed and is called in the same way.
+    If this site had 1,000 hotels, the only thing that would need to change
+    would be the three properties of this object. Because we created a
+    model for the hotel using data, the same code can access and display
+    the details for any hotel that follows the same data model.
+    If you had two objects on the same page, you would create each one
+    using the same notation but store them in variables with different
+    names.

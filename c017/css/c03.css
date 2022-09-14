@@ -1,0 +1,23 @@
+html body {
+font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+#content {
+  text-align: center;
+  border-color: aquamarine;
+  background-color: rgb(25, 41, 35);
+  padding: 10px;
+  color: white;
+}
+
+section{
+  color: white;
+  background-color: rgb(12, 43, 32);
+  margin-top: 5px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}

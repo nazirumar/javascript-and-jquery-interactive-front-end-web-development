@@ -1,0 +1,23 @@
+
+WORKING WITH STRINGS
+
+
+
+
+    string object's methods shown on the previous page.
+        1. This example starts by storing the phrase “Home sweet home “in a
+        variable called saying.
+        2. The next line tells you how many characters are in the string using
+        the length property of the String object and stores the result in a
+        variable called msg.
+        3. This is followed by examples showing several of the String
+        object's methods.
+        The name of the variable (saying) is followed by a dot, then the
+        property or method that is being demonstrated (in the same way that
+        the other objects in this chapter used the dot notation to indicate a
+        property or method of an object).
+        4. The final two lines select the element with an id attribute whose
+        value is info and then add the value of the msg variable inside that
+        element.
+        (Remember, security issues with using the innerHTML property are
+        discussed on p228.)

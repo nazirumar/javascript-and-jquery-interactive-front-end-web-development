@@ -1,0 +1,43 @@
+VARIABLE SCOPE
+    The location where you declare a variable will affect
+    where it can be used within your code. If you
+    declare it within a function, it can only be used
+    within that function. This is known as the variable's
+    scope.
+
+    LOCAL VARIABLES
+
+    When a variable is created inside a function using the var keyword, it can
+    only be used in that function. It is called a local variable or function-level
+    variable. It is said to have local scope or function-level scope. It cannot
+    be accessed outside of the function in which it was declared. Below, area
+    is a local variable.
+    The interpreter creates local variables when the function is run, and
+    removes them as soon as the function has finished its task. This means
+    that:
+    If the function runs twice, the variable can have different values each
+    time.
+    Two different functions can use variables with the same name
+    without any kind of naming conflict.
+
+    GLOBAL VARIABLES
+
+    If you create a variable outside of a function, then it can be used anywhere
+    within the script. It is called a global variable and has global scope. In the
+    example shown, wallSize is a global variable.
+    Global variables are stored in memory for as long as the web page is
+    loaded into the web browser. This means they take up more memory than
+    local variables, and it also increases the risk of naming conflicts (see next
+    page). For these reasons, you should use local variables wherever
+    possible.
+    If you forget to declare a variable using the var keyword, the variable will
+    work, but it will be treated as a global variable (this is considered bad
+    practice).
+
+
+    HOW MEMORY & VARIABLES WORK
+    Global variables use more memory. The browser has
+    to remember them for as long as the web page using
+    them is loaded. Local variables are only remembered
+    during the period of time that a function is being
+    executed.

@@ -1,0 +1,11 @@
+CREATING AN OBJECT: CONSTRUCTOR NOTATION
+
+    The new keyword and the object constructor create
+    a blank object. You can then add properties and
+    methods to the object.
+    First, you create a new object using a combination of the new keyword
+    and the Object() constructor function. (This function is part of the
+    JavaScript language and is used to create objects.)
+    Next, having created the blank object, you can add properties and
+    methods to it using dot notation. Each statement that adds a property or
+    method should end with a semicolon.

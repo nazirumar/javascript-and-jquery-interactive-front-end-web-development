@@ -1,0 +1,86 @@
+DATA TYPES REVISITED
+    In JavaScript there are six data types:
+    Five of them are described as simple (or primitive)
+    data types. The sixth is the object (and is referred to
+    as a complex data type).
+
+SIMPLE OR PRIMITIVE DATA TYPES
+
+JavaScript has five simple (or primitive) data types:
+
+
+1. String
+
+2. Number
+
+3. Boolean
+
+4. Undefined (a variable that has been declared, but no value has been
+    assigned to it yet)
+5. Null (a variable with no value - it may have had one at some point, but
+    no longer has a value)
+    As you have seen, both the web browser and the current document can be
+    modeled using objects (and objects can have methods and properties).
+    But it can be confusing to discover that a simple value (like a string, a
+    number, or a Boolean) can have methods and properties. Under the hood,
+    JavaScript treats every variable as an object in its own right.
+    String: If a variable, or the property of an object, contains a string, you
+    can use the properties and methods of the String object on it.
+    Number: If a variable, or property of an object, stores a number, you can
+    use the properties and methods of the Number object on it (see next page).
+    Boolean: There is a Boolean object. It is rarely used.
+    (Undefined and null values do not have objects.)
+    COMPLEX DATA TYPE
+    JavaScript also defines a complex data type:
+6. Object
+    Under the hood, arrays and functions are considered types of objects.
+    ARRAYS ARE OBJECTS
+    As you saw on p118, an array is a set of key/value pairs (just like any
+    other object). But you do not specify the name in the key/value pair of an
+    array - it is an index number.
+    Like other objects, arrays have properties and methods. On p72 you saw
+    that arrays have a property called length, which tells you how many
+    items are in that array. There is also a set of methods you can use with any
+    array to add items to it, remove items from it, or reorder its contents. You
+    will meet those methods in Chapter 12.
+    FUNCTIONS ARE OBJECTS
+    Technically, functions are also objects. But they have an additional
+    feature: they are callable, which means you can tell the interpreter when
+    you want to execute the statements that it contains.
+    GLOBAL OBJECTS: NUMBER
+    OBJECT
+    Whenever you have a value that is a number, you
+    can use the methods and properties of the Number
+    object on it.
+    These methods are helpful when dealing with a range of applications from
+    financial calculations to animations.
+    Many calculations involving currency (such as tax rates) will need to be
+    rounded to a specific number of decimal places.
+    Or, in an animation, you might want to specify that certain elements
+    should be evenly spaced out across the page.
+    METHOD DESCRIPTION
+
+        isNaN() 
+            Checks if the value is not a number
+
+        toFixed() 
+            Rounds to specified number of decimal places(returns a string)
+
+        toPrecision()
+
+            Rounds to total number of places (returns a string)
+
+        toExponentia l()
+        
+            Returns a string representing the number in
+        exponential notation
+
+COMMONLY USED TERMS:
+    An integer is a whole number (not a fraction).
+    A real number is a number that can contain a fractional part.
+    A floating point number is a real number that uses decimals to
+    represent a fraction. The term floating point refers to the decimal
+    point.
+    Scientific notation is a way of writing numbers that are too big or
+    too small to be conveniently written in decimal form. For example:
+    3,750,000,000 can be represented as 3.75 × 10 or 3.75e+12.
